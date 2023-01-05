@@ -97,7 +97,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	          <url> http://172.31.26.213:9980/mithuntechnologies/repository/icicibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
