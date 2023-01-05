@@ -12,8 +12,7 @@ def mavenHome = tool name: "maven3.8.6"
 
 try{
 sendslackNotifications ("STARTED")
-
-stage('CheckoutCode') {
+stage('CheckoutCode'){ 
 git branch: 'development', credentialsId: 'dee84286-8890-48ef-9e82-778a874e474e', url: 'https://github.com/kathulashyam/maven-web-application.git'
 }
 
